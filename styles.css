@@ -98,7 +98,6 @@ html, body {
     
 }
 .container-footer {
-    max-width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -214,4 +213,76 @@ html, body {
     color: #AEB8D0;
     margin-left: 6rem;
     margin-top: 3rem;;
+}
+@media screen and (min-width: 300px) {
+    .newsletter {
+        flex-direction: column;
+    }
+    .footer {
+        flex-direction: column;
+    }
+    .container-footer {
+        flex-direction: column;
+    }
+    .footer {
+        flex-direction: row;
+    }
+    .container-footer {
+        flex-direction: row;
+    }
+}
+@media screen and (min-width: 640px) {
+    .newsletter {
+        flex-direction: column;
+    }
+    .footer {
+        flex-direction: row;
+    }
+    .container-footer {
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .newsletter {
+        flex-direction: column;
+    }
+    .footer {
+        flex-direction: column;
+    }
+    .container-footer {
+        flex-direction: row;
+    }
+    .home {
+        margin-left: 1rem;
+    }
+    .ellipse {
+        margin-left: 0rem;
+    }
+    .footer {
+        flex-direction: row;
+    }
+    
+    @media screen and (min-width: 1000px) {
+    .newsletter {
+        flex-direction: column;
+    }
+    .footer {
+        flex-direction: column;
+    }
+    .container-footer {
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .newsletter {
+        flex-direction: row;
+    }
+    .footer {
+        flex-direction: row;
+    }
+    .container-footer {
+        flex-direction: row;
+    }
 }
